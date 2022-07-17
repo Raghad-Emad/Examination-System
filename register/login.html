@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wid  th=device-width, initial-scale=1.0">
+    <title>Log in to Examination System</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="form">
+            <div id="login-form" name="second" onsubmit="navigateExam()">
+                <input id="login-email" type="text" placeholder="Email" required/>
+                <div class="error" id="email-error"></div>
+                <input id="login-password" type="password" placeholder="Password" required/>
+                <div class="error" id="password-error"></div>
+                <button id="login-btn">login</button>
+                <p class="message">Not registered? <a id="btn" href="register.html">Create an account</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+
+</html>

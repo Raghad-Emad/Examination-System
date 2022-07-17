@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result page</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <div class="container">
+        <span>Time Out</span>
+        <div class="result-box" id="result">
+        </div>
+    </div>
+    <script>
+        var firstName=localStorage.getItem('firstName');
+        var lastName=localStorage.getItem('lastName');
+        var result=(Number(localStorage.getItem('result')))*10;
+        var finalResult=result*5/100;
+        var resultArea=document.getElementById('result');
+        if(finalResult<50){
+            resultArea.innerHTML=`unfortunately ${firstName} ${lastName} ,you didn't pass the exam your grade is ${finalResult}%`
+        }else{
+            resultArea.innerHTML=`Congrats ${firstName} ${lastName} ,you have passed the exam your grade is ${finalResult}%`
+        }
+
+    </script>
+</body>
+</html>

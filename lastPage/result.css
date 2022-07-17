@@ -1,0 +1,26 @@
+body {
+    background: #b58c94;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+}
+
+.container{
+    font-size: 35px;
+    font-weight: 60 0;
+    font-family:  sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #dad7cd;
+    width: 50vw;
+    height: 25vh;
+    margin: 0 auto 10vh;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.result-box{
+    padding-top: 40px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="page"></div>
+    <div class="form">
+        <div id="register-form" name="first">
+            <input id="first-name" type="text" placeholder="First Name" required/>
+            <div class="error" id="fname-error"></div>
+            <input id="last-name" type="text" placeholder="Last Name" required/>
+            <div class="error" id="last-error"></div>
+            <input id="email" type="text" placeholder="Email Address" required/>
+            <div class="error" id="email-error"></div>
+            <input id="password" type="password" placeholder="Password" required/>
+            <div class="error" id="password-error"></div>
+            <input id="re-password" type="password" placeholder="Re-enter password" required />
+            <div class="error" id="rePassword-error"></div>
+            <button id="create">create</button>
+            <p class="message">Already registered? <a href="login.html">Sign In</a></p>
+        </div>
+        <script src="register.js"></script>
+</body>
+</html>
